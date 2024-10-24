@@ -9,5 +9,7 @@ const book = {
 
 
 // change the `read` property from false to true
-
+book.read = true;
 // write your code here:
+
+console.log(book);

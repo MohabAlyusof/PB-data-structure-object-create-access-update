@@ -7,3 +7,6 @@ const person = {
 };
 
 // Capitalise the value of the property `city`
+person.city = person.city.charAt(0).toUpperCase() + person.city.slice(1);
+
+console.log(person);
